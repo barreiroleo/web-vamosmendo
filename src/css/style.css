@@ -371,8 +371,8 @@ button:hover::before, .button:hover::before {
   left: 0;
   right: 0;
   bottom: -30px;
-  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
-  background: linear-gradient(to right, #31d35c, #2bb7da);
+  background: -webkit-gradient(linear, left top, right top, from(#0000ff), to(#2d314d));
+  background: linear-gradient(to right, #0000ff, #2d314d);
   opacity: 0;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
