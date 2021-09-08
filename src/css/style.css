@@ -603,6 +603,6 @@ button:hover::before, .button-dark:hover::before {
 }
 
 .banner img {
-  max-width: 100%;
+  max-width: 80%;
 }
 /*# sourceMappingURL=style.css.map */
