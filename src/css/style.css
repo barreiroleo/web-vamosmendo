@@ -596,4 +596,13 @@ button:hover::before, .button-dark:hover::before {
   min-width: 326px;
   padding: 0px;
 }
+
+.banner {
+  margin: 1rem;
+  text-align: center;
+}
+
+.banner img {
+  max-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
