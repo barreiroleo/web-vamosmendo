@@ -386,7 +386,7 @@ button:hover::before, .button-dark:hover::before {
   padding: 0.625rem;
   color: #0000ff;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-text-decoration-color: grey;
           text-decoration-color: grey;
 }
@@ -561,6 +561,7 @@ button:hover::before, .button-dark:hover::before {
 }
 
 .insta-feed {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,5 +579,21 @@ button:hover::before, .button-dark:hover::before {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.instagram-media {
+  margin: 0 0 1rem 1rem !important;
+}
+
+.instagram-media {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: block;
+  margin: 0px 0px 12px;
+  min-width: 326px;
+  padding: 0px;
 }
 /*# sourceMappingURL=style.css.map */

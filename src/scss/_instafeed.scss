@@ -1,8 +1,32 @@
-.insta-feed{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: center;
-    align-items: flex-start;
+.insta-feed {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.instagram-media {
+  margin: 0 0 1rem 1rem !important;
+
+  // @include breakpoint-up(small) {
+  //     height: 100px;
+  // }
+  @include breakpoint-up(medium) {
+    // height: 600px;
+  }
+}
+
+.instagram-media {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: none;
+  display: block;
+  margin: 0px 0px 12px;
+  min-width: 326px;
+  padding: 0px;
+//   height: 600px !important;
 }
